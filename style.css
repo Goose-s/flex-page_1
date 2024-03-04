@@ -1,0 +1,145 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-family: 'Arial Narrow Bold';
+}
+.header, .intro {
+background-color: #1f2937;
+padding: 10px 160px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo, .bold{
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+ul {
+    list-style: none;
+    display: flex;
+    gap:  10px;
+}
+li a, .subtext{
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+.intro {
+    display: flex;
+    padding: 100px 160px;
+}
+.awesome {
+    font-size: 48px;
+    font-weight: 800;
+    color: #f9faf8;
+}
+button{
+    background-color: #3882f6;
+    color: #f9faf8;
+    border: none;
+    padding: 10px 24px;
+    cursor: pointer;
+    border-radius:  5px;
+    font-weight: bold;
+}
+.left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    max-width: 400px;
+    gap:  10px;
+}
+.right {
+    text-align: center;
+    margin-left: 80px;
+    background-color: gray;
+    flex: 1;
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 160px;
+    gap:   40px;
+}
+.main{
+    font-weight: 800;
+    font-size: 36px;
+    color: #1f2937;
+}
+.images{
+    display: flex;
+    gap: 60px;
+}
+.info img{
+    width: 130px;
+    height: 130px;
+    border: #3882f6;
+    border-radius: 10px;
+    border-style: solid;
+}
+.images div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 140px;
+    text-align: center;
+    gap: 10px;
+}
+.text {
+    color: rgb(71, 71, 71);
+}
+.quote {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    padding: 100px 250px;
+}
+.saying {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 100;
+}
+.author{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 24px;
+    font-weight: bold;
+}
+.click{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 150px;
+
+}
+.blue_box{
+    background-color:#3882f6;
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    padding: 50px 150px;
+    border-radius: 10px;
+}
+.box {
+    border: 2px solid #f9faf8;
+    padding: 6px 28px;
+    border-radius: 8px;
+    font-size: 16px;
+}
+.footer {
+    color:#f9faf8 ;
+    background-color: #1f2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px
+}
